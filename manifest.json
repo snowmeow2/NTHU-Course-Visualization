@@ -9,7 +9,15 @@
         "tabs",
         "storage"
     ],
+    
+    "icons": {
+        "16": "static/favicon-16x16.png",
+        "32": "static/favicon-32x32.png",
+       "128": "static/chrome-192x192.png"
+     },
+
     "action": {
+        "default_icon": "static/favicon-32x32.png",
         "default_title": "NTHU 個人修課紀錄",
         "default_popup": "popup.html"
         },
