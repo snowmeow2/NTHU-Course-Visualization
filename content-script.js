@@ -33,17 +33,3 @@ $(table.slice(3, -1)).each(function () {
 chrome.storage.local.set({'info': info});
 chrome.storage.local.set({'credits': credits});
 chrome.storage.local.set({'value': Curriculum});
-
-/*
-var jq = document.createElement('script');
-jq.src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js";
-document.getElementsByTagName('head')[0].appendChild(jq);
-https://cdn.jsdelivr.net/npm/danfojs@1.0.2/lib/bundle.min.js
-*/
-
-/*
-- 成績 tooltip
-- 通識對象 tooltip
--
-- 
-*/
