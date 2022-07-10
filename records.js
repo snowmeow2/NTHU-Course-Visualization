@@ -56,7 +56,7 @@ const color = d3.scaleOrdinal()
 
 var color_map = {};
 
-const opacity = d3.scaleLinear()
+const GPA_opacity = d3.scaleLinear()
     .domain([1.5, 4.3])
     .range([.5, 1])
 
@@ -134,7 +134,7 @@ function plotTreemap(table) {
         })
         .style("opacity", 0)
         .transition().duration(800)
-        .style("opacity", d => opacity(GPA_dict[d.data.score]));
+        .style("opacity", d => GPA_opacity(GPA_dict[d.data.score]));
 
     // add the text labels
     const course_name = svg.selectAll(".course-container")
