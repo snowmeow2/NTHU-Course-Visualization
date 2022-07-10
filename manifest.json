@@ -2,7 +2,7 @@
     "name": "NTHU 個人修課紀錄",
     "description": "厭倦校務系統的介面了嗎？",
     "author": "snowmeow2",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 3,
 
     "permissions":[
@@ -23,7 +23,7 @@
         },
     "content_scripts": [
         {
-          "matches": ["https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/8/R/6.3/JH8R63002.php?*"],
+          "matches": ["https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/*"],
           "js": ["library/jquery-3.6.0.min.js", "content-script.js"]
         }
       ]
