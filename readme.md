@@ -4,7 +4,7 @@
 還可以向大家分享你修過哪些名稱響亮的課！
 
 ## 安裝
-在 Chrome 應用程式商店中下載：
+在 Chrome 應用程式商店中[下載](https://chrome.google.com/webstore/detail/nthu-%E5%80%8B%E4%BA%BA%E4%BF%AE%E8%AA%B2%E7%B4%80%E9%8C%84/cnembmeggfhckmbifgbppjihoadhambj)。
 
 或直接從這裡下載未封裝的內容（需要自己載入）。
 
